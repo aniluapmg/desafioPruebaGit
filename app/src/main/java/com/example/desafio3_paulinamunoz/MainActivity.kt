@@ -2,11 +2,7 @@ package com.example.desafio3_paulinamunoz
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.desafio3_paulinamunoz.com.example.desafio3_paulinamunoz.FifthActivity
+import androidx.appcompat.widget.Toolbar
 import com.example.desafio3_paulinamunoz.databinding.ActivityMainBinding
 
 class MainActivity : BaseActivity<ActivityMainBinding>() {
@@ -16,6 +12,8 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        title = "Main Activity"
 
 
 
