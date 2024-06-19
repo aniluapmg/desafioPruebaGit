@@ -6,6 +6,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.desafio3_paulinamunoz.com.example.desafio3_paulinamunoz.FifthActivity
 import com.example.desafio3_paulinamunoz.databinding.ActivityMainBinding
 
 class MainActivity : BaseActivity<ActivityMainBinding>() {
@@ -29,6 +30,10 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
 
         binding.cardView3.setOnClickListener {
             startActivity(Intent(this, FourthActivity::class.java))
+        }
+
+        binding.cardView4.setOnClickListener {
+            startActivity(Intent(this, FifthActivity::class.java))
         }
 
     }
